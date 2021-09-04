@@ -1,4 +1,7 @@
-## StyleGAN2-ADA &mdash; Official PyTorch implementation
+## Changes
+Adds a --cpu flag to both generate.py and projector.py. To use the cpu simply add --cpu=True to any command using these. Defaults to false. This way neither cuda nor pytorch cuda nor an NVIDIA gpu is required but is about ~4 times slower in practice.
+
+## StyleGAN2-ADA &mdash; PyTorch implementation
 
 ![Teaser image](./docs/stylegan2-ada-teaser-1024x252.png)
 
